@@ -1,0 +1,51 @@
+1. What exactly is []?
+Answer:  it used to define a list , syntax of creating a list.
+2. In a list of values stored in a variable called spam, how would you assign the value 'hello' as the third value? (Assume [2, 4, 6, 8, 10] are in spam.)
+Answer:  spam[2]=’hello’
+Let's pretend the spam includes the list ['a', 'b', 'c', 'd'] for the next three queries.
+3. What is the value of spam[int(int('3' * 2) / 11)]?
+   Answer:  spam[int(int(‘33’)/11)]
+	spam[int(3.0)]
+	spam[3] value is ‘d’
+
+4. What is the value of spam[-1]?
+Answer:  value is ‘d’
+5. What is the value of spam[:2]?
+Answer:   value is ‘a’ , ‘b’.
+Let's pretend bacon has the list [3.14, 'cat,' 11, 'cat,' True] for the next three questions.
+6. What is the value of bacon.index('cat')?
+Answer:  index value  is  1 . 
+7. How does bacon.append(99) change the look of the list value in bacon?
+Answer:   [3.14, 'cat,' 11, 'cat,' True , 99] .
+8. How does bacon.remove('cat') change the look of the list in bacon?
+Answer: bacon.remove('cat') function removes the first instance of 'cat' in the list, leaving the other elements .
+
+9. What are the list concatenation and list replication operators?
+Answer: concatenation  operator is (+)
+	Replication operator is (*)
+	
+10. What is difference between the list methods append() and insert()?
+Answer:   append() adds an item to the end of a list,  insert() inserts an item in a specified position in the list.
+11. What are the two methods for removing items from a list?
+
+Answer: remove() ,pop(),clear().
+
+12. Describe how list values and string values are identical.
+Answer:   list is mutable and string is immutable
+ List contains any type of data and string contains Characters .
+13. What's the difference between tuples and lists?
+Answer:   Tuples  are immutable
+	List is mutable
+	Tuple are unchangeable 
+List Can be change  .
+
+
+14. How do you type a tuple value that only contains the integer 42?
+Answer:   (42,)
+
+15. How do you get a list value's tuple form? How do you get a tuple value's list form?
+Ans -- By the square brackets.
+16. Variables that "contain" list values are not necessarily lists themselves. Instead, what do they contain?
+Answer: By passing references.
+17. How do you distinguish between copy.copy() and copy.deepcopy()?
+Answer:  A shallow copy creates a new compound object and then adds a reference to the object found in the original. A deep copy creates a new compound object and then adds a reference to the object found in the original. We can copy arbitrary objects (including custom classes) with the copy module.
